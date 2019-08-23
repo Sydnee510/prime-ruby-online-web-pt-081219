@@ -4,7 +4,9 @@ def prime?(n)
   i = 0
   odd_values = []
   for i in 2..(n - 1)
-  
+   odd_values << yield(n[i])
+    i = i + 1
+  end 
    if (n % i) == 0
     return false
    end
