@@ -8,7 +8,7 @@ def prime?(n)
     i = i + 1
   end 
    if (n % i) == 0
-    return true
+    return false
   else 
     false
    end
