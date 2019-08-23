@@ -9,7 +9,9 @@ def prime?(n)
   end 
    if (n % i) == 0
     return false
-  else false
+    false
+  else 
+    true
    end
 # if n.include?(false)
 #   false
