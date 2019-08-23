@@ -42,6 +42,6 @@ for (int i : array_sort) {
 }
 Collections.sort(odd)
 Collections.sort(even)
-tem.out.println("Even:" + even)System.out.println("Odd:" + odd)
-Sys
+System.out.println("Odd:" + odd)
+System.out.println("Even:" + even)
 en
