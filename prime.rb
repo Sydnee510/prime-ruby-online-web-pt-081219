@@ -7,7 +7,14 @@ def prime?(n)
    odd_values << yield(n[i])
     i = i + 1
   end 
- /
+ # def is_prime n
+  for i in 2..(n - 1)
+   if (n % i) == 0
+    return false
+   end
+  end
+
+  true
 # if n.include?(false)
 #   false
 #   else
