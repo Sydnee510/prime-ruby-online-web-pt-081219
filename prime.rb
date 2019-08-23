@@ -12,12 +12,10 @@ def prime?(n)
   else 
     true
    end
-  end
 # if n.include?(false)
 #     false
 #   else
 #   true
 # end
 true
-end
 end
