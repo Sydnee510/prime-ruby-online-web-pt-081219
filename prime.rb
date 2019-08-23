@@ -7,12 +7,7 @@ def prime?(n)
    odd_values << yield(n[i])
     i = i + 1
   end 
-  # if (n % i) == 0
-  #   return false
-  #   false
-  # else 
-  #   true
-  # end
+ /
 # if n.include?(false)
 #   false
 #   else
