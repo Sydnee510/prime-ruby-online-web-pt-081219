@@ -1,7 +1,7 @@
 # Add  code here!
 def prime?(n)
   # def is_prime n
-  i = 0
+  i = 1
   odd_values = []
   for i in 2..(n - 1)
    odd_values << yield(n[i])
