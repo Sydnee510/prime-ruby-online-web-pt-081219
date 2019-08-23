@@ -11,5 +11,5 @@ def prime?(n)
 #   else
 #   true
 # end
-false
+true
 end
