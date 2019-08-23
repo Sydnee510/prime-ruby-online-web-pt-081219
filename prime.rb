@@ -6,9 +6,9 @@ def prime?(n)
     return false
    end
   end
-if n.include?(false)
-    false
-  else
-  true
- end
+# if n.include?(false)
+#     false
+#   else
+#   true
+# end
 end
