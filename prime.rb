@@ -19,14 +19,14 @@
 # #   true
 # # end
 # end
- def prime? n
-  for d in 2..(n - 1)
-   if (n % d) == 0
-    return false
-  else
-    true
-   end
-  end
+# def prime? n
+#   for d in 2..(n - 1)
+#   if (n % d) == 0
+#     return false
+#   else
+#     true
+#   end
+#   end
 
-  true
- end
+#   true
+# end
