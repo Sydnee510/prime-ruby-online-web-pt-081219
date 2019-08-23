@@ -5,8 +5,9 @@ def prime?(n)
    if (n % d) == 0
     return false
    end
-   
   end
-
+if block_return_values.include?(false)
+    false
+  else
   true
  end
