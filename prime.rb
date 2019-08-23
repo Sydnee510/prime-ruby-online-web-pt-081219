@@ -12,7 +12,6 @@ def prime?(n)
   else
     true
    end
-  end
 # if n.include?(false)
 #   false
 #   else
