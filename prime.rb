@@ -30,7 +30,7 @@
 
 #   true
 # end
-
+def prime?(array)
 List<Integer> odd = new ArrayList<Integer>();
 List<Integer> even = new ArrayList<Integer>();
 for (int i : array_sort) {
